@@ -1,0 +1,44 @@
+Automation Banking Prossess
+
+public class User {
+    public int userID;
+    public String name;
+    public String cardNumber;
+
+    public void accessATM() {
+        // logic to start ATM access
+    }
+}
+
+
+public class ATM_MC {
+    public String atmID;
+    public String location;
+
+    public void authenticateUser() {
+        // logic to authenticate ATM user
+    }
+}
+
+
+public class Account {
+    public String accountNumber;
+    public String accountType;
+    public double balance;
+
+    public void updateBalance() {
+        // logic to update account balance
+    }
+}
+
+
+public class Transaction {
+    public int transactionID;
+    public String accountNumber;
+    public double amount;
+
+    public void processTransaction() {
+        // logic to process the transaction
+    }
+}
+

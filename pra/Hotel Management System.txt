@@ -1,0 +1,55 @@
+Hotel Management System 
+
+public class Hotel {
+    public String hotelName;
+    public String location;
+    public int totalRooms;
+
+    public void displayHotelInfo() {
+        // logic to display hotel information
+    }
+}
+
+
+public class Room {
+    public int roomNumber;
+    public String type;
+    public boolean isAvailable;
+
+    public void checkAvailability() {
+        // logic to check room availability
+    }
+}
+
+
+public class Booking {
+    public int bookingID;
+    public int roomNumber;
+    public int customerID;
+
+    public void confirmBooking() {
+        // logic to confirm booking
+    }
+}
+
+
+public class Customer {
+    public int customerID;
+    public String name;
+    public String contact;
+
+    public void viewBooking() {
+        // logic to view booking details
+    }
+}
+
+
+public class Staff {
+    public int staffID;
+    public String name;
+    public String role;
+
+    public void performDuty() {
+        // logic to perform assigned duty
+    }
+}

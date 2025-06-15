@@ -1,0 +1,62 @@
+Student Result management system
+
+Student.java 
+
+public class Student {
+    public int studentID;
+    public String name;
+    public String email;
+
+    public void viewResult() {
+        // logic to view result
+    }
+}
+
+course.java 
+
+public class Course {
+    public String courseID;
+    public String courseName;
+    public int credits;
+
+    public void displayCourseInfo() {
+        // logic to display course information
+    }
+}
+
+faculty.java 
+
+public class Faculty {
+    public int facultyID;
+    public String name;
+    public String department;
+
+    public void assignMarks() {
+        // logic to assign marks to students
+    }
+}
+
+Result.java 
+
+public class Result {
+    public int studentID;
+    public String subject;
+    public int marks;
+
+    public void generateGrade() {
+        // logic to calculate grade based on marks
+    }
+}
+
+
+Admin.java
+
+public class Admin {
+    public int adminID;
+    public String username;
+    public String password;
+
+    public void manageUsers() {
+        // logic to manage students and faculty
+    }
+}

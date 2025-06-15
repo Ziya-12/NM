@@ -1,0 +1,67 @@
+library Management System
+
+public class Book {
+    public String bookID;
+    public String title;
+    public String author;
+
+    public void issueBook() {
+        // logic to issue the book
+    }
+}
+
+
+public class Journal {
+    public String journalID;
+    public String title;
+    public String subject;
+
+    public void viewJournal() {
+        // logic to view journal
+    }
+}
+
+
+public class Magazine {
+    public String magazineID;
+    public String name;
+    public String category;
+
+    public void readMagazine() {
+        // logic to read magazine
+    }
+}
+
+
+public class Librarian {
+    public int librarianID;
+    public String name;
+    public String shift;
+
+    public void manageLibrary() {
+        // logic to manage the library
+    }
+}
+
+
+public class Student {
+    public int studentID;
+    public String name;
+    public String department;
+
+    public void borrowBook() {
+        // logic to borrow a book
+    }
+}
+
+public class Faculty {
+    public int facultyID;
+    public String name;
+    public String subject;
+
+    public void accessJournal() {
+        // logic to access a journal
+    }
+}
+
+

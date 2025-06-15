@@ -65,3 +65,24 @@ public class Faculty {
 }
 
 
+
+3. 📚 Library Management System
+✅ Problem Analysis & Project Planning:
+Managing books, users, and transactions manually in libraries is time-consuming and leads to misplaced records.
+
+🎯 Objective:
+To automate book issuing, returning, and tracking for students, faculty, and librarians.
+
+📌 Scope:
+Manage books, journals, and magazines
+
+Issue/return tracking
+
+User management (student, faculty, librarian)
+
+Fine calculation (optional)
+
+📝 Problem Statement:
+Manual library systems are inefficient and error-prone. An automated system ensures fast and reliable service for book management.
+
+

@@ -60,3 +60,22 @@ public class Admin {
         // logic to manage students and faculty
     }
 }
+
+
+✅ Problem Analysis & Project Planning:
+Manual result handling is time-consuming and error-prone. Automating the result process ensures accuracy, quick access, and secure record-keeping.
+
+🎯 Objective:
+To develop a system that allows storing, managing, and viewing student results efficiently.
+
+📌 Scope:
+Store student records and marks
+
+Generate grade reports
+
+Faculty can upload and manage marks
+
+Students can view their results
+
+📝 Problem Statement:
+In many institutions, maintaining student result records manually leads to data inconsistency and delays. An automated system is needed to simplify and secure this process.

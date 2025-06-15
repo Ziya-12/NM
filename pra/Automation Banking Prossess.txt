@@ -42,3 +42,22 @@ public class Transaction {
     }
 }
 
+
+4. 💳 Automation Banking Process
+✅ Problem Analysis & Project Planning:
+Traditional banking requires users to visit branches, causing delays. ATM and automation reduce human effort and errors.
+
+🎯 Objective:
+To create a system that handles basic ATM functions like withdrawal, deposit, balance check, and user authentication.
+
+📌 Scope:
+ATM access and authentication
+
+Account management
+
+Basic transactions (withdraw, deposit)
+
+Admin and user roles
+
+📝 Problem Statement:
+Manual banking processes are slow and labor-intensive. An automated ATM-based system can provide quick, accurate, and secure transactions.

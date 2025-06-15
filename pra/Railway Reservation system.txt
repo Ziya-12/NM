@@ -82,3 +82,22 @@ public class Passenger {
 
 
 
+2. 🚆 Railway Management System
+✅ Problem Analysis & Project Planning:
+Railway ticket booking and schedule management are often inefficient when done manually. Passengers face issues with availability and delays.
+
+🎯 Objective:
+To develop a system that automates ticket booking, train scheduling, and seat availability.
+
+📌 Scope:
+Train details and schedules
+
+Booking and cancellation
+
+Passenger and payment details
+
+Clerk and admin management
+
+📝 Problem Statement:
+The manual railway booking system causes delays, overbooking, and lack of transparency. A computerized system will streamline and simplify operations.
+

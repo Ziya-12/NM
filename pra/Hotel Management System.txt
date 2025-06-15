@@ -53,3 +53,23 @@ public class Staff {
         // logic to perform assigned duty
     }
 }
+
+
+5. 🏨 Hotel Management System
+✅ Problem Analysis & Project Planning:
+Hotel staff often manage room bookings and guest details manually, leading to confusion and overbooking.
+
+🎯 Objective:
+To develop a system that manages room bookings, customer info, staff, and payments digitally.
+
+📌 Scope:
+Room availability and booking
+
+Customer and staff details
+
+Billing and payment
+
+Hotel information management
+
+📝 Problem Statement:
+Managing hotel operations manually can lead to errors in booking and billing. A digital system ensures better guest service and efficient staff coordination.

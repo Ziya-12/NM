@@ -24,7 +24,7 @@ if ($conn->connect_error) {
 // Insert two records
 $sql = "INSERT INTO employee (empid, empname) VALUES 
         (101, 'John Doe'),
-        (102, 'Aisha Ali')";
+        (102, 'Ziya')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Records inserted successfully!";

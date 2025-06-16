@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Image Map Example</title>
+    <title>World Map Hotspots</title>
 </head>
 <body>
 
-<h2>Click on the regions of the image:</h2>
+<h2>Click on Locations</h2>
 
-<!-- Image with map -->
-<img src="https://via.placeholder.com/400x200" alt="Sample Map" usemap="#image-map">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg"
+     alt="World Map" usemap="#worldmap" width="800">
 
-<!-- Define the map with hotspots -->
-<map name="image-map">
-    <!-- Rectangle hotspot -->
-    <area shape="rect" coords="10,10,100,100" href="https://en.wikipedia.org/wiki/Apple" target="_blank" alt="Apple">
-
-    <!-- Circle hotspot -->
-    <area shape="circle" coords="200,100,40" href="https://en.wikipedia.org/wiki/Orange_(fruit)" target="_blank" alt="Orange">
-
-    <!-- Polygon hotspot -->
-    <area shape="poly" coords="300,20,350,50,340,100,290,80" href="https://en.wikipedia.org/wiki/Banana" target="_blank" alt="Banana">
+<map name="worldmap">
+    <!-- Thailand -->
+    <area shape="circle" coords="700,260,10" href="https://en.wikipedia.org/wiki/Thailand" target="_blank" alt="Thailand">
+    <!-- Goa (India) -->
+    <area shape="circle" coords="660,300,10" href="https://en.wikipedia.org/wiki/Goa" target="_blank" alt="Goa">
+    <!-- Tokyo -->
+    <area shape="circle" coords="780,230,10" href="https://en.wikipedia.org/wiki/Tokyo" target="_blank" alt="Tokyo">
+    <!-- Spain -->
+    <area shape="circle" coords="510,230,10" href="https://en.wikipedia.org/wiki/Spain" target="_blank" alt="Spain">
+    <!-- US -->
+    <area shape="circle" coords="220,220,15" href="https://en.wikipedia.org/wiki/United_States" target="_blank" alt="USA">
+    <!-- London -->
+    <area shape="circle" coords="480,200,10" href="https://en.wikipedia.org/wiki/London" target="_blank" alt="London">
 </map>
 
 </body>

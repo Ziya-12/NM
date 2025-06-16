@@ -31,7 +31,7 @@
             <td>21</td>
         </tr>
         <tr>
-            <td>Aisha</td>
+            <td>Ziya</td>
             <td>22</td>
         </tr>
     </table>

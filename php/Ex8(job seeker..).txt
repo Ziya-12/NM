@@ -1,0 +1,56 @@
+Frontend 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Seeker Registration</title>
+</head>
+<body>
+
+<h2>Job Application Form</h2>
+
+<form action="submit.php" method="post" enctype="multipart/form-data">
+    Name: <input type="text" name="name" required><br><br>
+
+    Email: <input type="email" name="email" required><br><br>
+
+    Phone: <input type="text" name="phone" required><br><br>
+
+    Resume: <input type="file" name="resume" accept=".pdf,.doc,.docx" required><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+
+
+Backend
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name  = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+
+    // Upload file
+    $target_dir = "uploads/";
+    if (!is_dir($target_dir)) {
+        mkdir($target_dir); // Create folder if not exists
+    }
+
+    $resume = $_FILES["resume"]["name"];
+    $target_file = $target_dir . basename($resume);
+
+    if (move_uploaded_file($_FILES["resume"]["tmp_name"], $target_file)) {
+        echo "<h2>Application Submitted Successfully!</h2>";
+        echo "<p>Name: $name</p>";
+        echo "<p>Email: $email</p>";
+        echo "<p>Phone: $phone</p>";
+        echo "<p>Resume uploaded to: $target_file</p>";
+    } else {
+        echo "Error uploading resume.";
+    }
+}
+?>

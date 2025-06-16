@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Map Example</title>
+</head>
+<body>
+
+<h2>Click on the regions of the image:</h2>
+
+<!-- Image with map -->
+<img src="https://via.placeholder.com/400x200" alt="Sample Map" usemap="#image-map">
+
+<!-- Define the map with hotspots -->
+<map name="image-map">
+    <!-- Rectangle hotspot -->
+    <area shape="rect" coords="10,10,100,100" href="https://en.wikipedia.org/wiki/Apple" target="_blank" alt="Apple">
+
+    <!-- Circle hotspot -->
+    <area shape="circle" coords="200,100,40" href="https://en.wikipedia.org/wiki/Orange_(fruit)" target="_blank" alt="Orange">
+
+    <!-- Polygon hotspot -->
+    <area shape="poly" coords="300,20,350,50,340,100,290,80" href="https://en.wikipedia.org/wiki/Banana" target="_blank" alt="Banana">
+</map>
+
+</body>
+</html>

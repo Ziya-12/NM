@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Features Demo</title>
+    <style>
+        /* Hover effect for table rows */
+        tr:hover {
+            background-color: lightyellow;
+        }
+
+        /* Hover effect for list items */
+        li:hover {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Web Page with Table, Lists and Hover</h1>
+
+    <!-- Table -->
+    <h2>Sample Table</h2>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Nowshath</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Aisha</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <!-- Lists -->
+    <h2>Types of Lists</h2>
+
+    <!-- Unordered List -->
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Wake Up</li>
+        <li>Study</li>
+        <li>Sleep</li>
+    </ol>
+
+    <!-- Description List -->
+    <h3>Description List</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+
+</body>
+</html>

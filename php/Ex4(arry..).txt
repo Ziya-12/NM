@@ -1,0 +1,21 @@
+<?php
+// Indexed Array
+$numbers = [4, 2, 8, 1, 5];
+sort($numbers); // Sorts in ascending order
+
+echo "Sorted Indexed Array (sort):<br>";
+foreach ($numbers as $num) {
+    echo $num . " ";
+}
+
+echo "<br><br>";
+
+// Associative Array
+$marks = ["John" => 85, "Aisha" => 92, "Ravi" => 78];
+arsort($marks); // Sorts by value in descending order
+
+echo "Sorted Associative Array by values (arsort):<br>";
+foreach ($marks as $name => $mark) {
+    echo "$name: $mark<br>";
+}
+?>

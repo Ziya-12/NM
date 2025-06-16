@@ -1,0 +1,37 @@
+MySQL 
+
+CREATE DATABASE IF NOT EXISTS company;
+
+USE company;
+
+CREATE TABLE IF NOT EXISTS employee (
+    empid INT PRIMARY KEY,
+    empname VARCHAR(50)
+);
+
+
+Php code 
+
+<?php
+// Connect to MySQL server
+$conn = new mysqli("localhost", "root", "", "company");
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Insert two records
+$sql = "INSERT INTO employee (empid, empname) VALUES 
+        (101, 'John Doe'),
+        (102, 'Aisha Ali')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "Records inserted successfully!";
+} else {
+    echo "Error: " . $conn->error;
+}
+
+// Close connection
+$conn->close();
+?>

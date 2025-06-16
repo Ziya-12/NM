@@ -49,10 +49,9 @@
     <!-- JavaScript -->
     <script>
         function showMessage() {
-            document.getElementById("message").innerHTML = "Hello! You clicked the button. 😊";
+            document.getElementById("message").innerHTML = "Hello! You clicked the button.";
         }
     </script>
 
 </body>
 </html>
-Ex10(scripting lang...)
